@@ -1,0 +1,42 @@
+html, body{
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+}
+
+canvas {
+  image-rendering: pixelated;
+  /* border: 1px solid black; */
+  box-shadow: 1px 1px 4px black;
+  width: 1200px;
+  height: 900px;
+  background: black;
+  /* width: 3200px;
+  height: 2400px;
+  zoom: 0.25; */
+  
+}
+
+.warning {
+  display: none;
+  position: absolute;
+  background: white;
+  padding: 24px;
+  box-shadow: 1px 1px 4px black;
+}
+
+.btn {
+  /* background-color: transparent; */
+  /* border: 1px solid black; */
+}
+
+@media (max-height: 900px) {
+  .warning {
+    display: block;
+  }
+}
