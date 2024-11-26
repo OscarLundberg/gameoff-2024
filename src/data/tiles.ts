@@ -13,28 +13,29 @@ export enum Tiles {
   Sand,
   Magicblock,
   Sapphire,
-  Gold
+  Gold,
+  Empty
 }
 
 export const SpriteCoordinate = {
   [Tiles.Rock]: [
-    new Vec2(0, 0),
-    new Vec2(2, 1),
-    new Vec2(3, 1),
-    new Vec2(0, 2),
-    new Vec2(1, 2)
+    0,
+    8,
+    9,
+    12,
+    13
   ],
-  [Tiles.Clay]: [new Vec2(1, 0)],
-  [Tiles.Limestone]: [new Vec2(2, 0)],
-  [Tiles.Sandstone]: [new Vec2(3, 0)],
-  [Tiles.Brownrock]: [new Vec2(4, 0)],
-  [Tiles.Pinkstone]: [new Vec2(5, 0)],
-  [Tiles.Blackrock]: [new Vec2(0, 1)],
-  [Tiles.Dirt]: [new Vec2(1, 1)],
-  [Tiles.Emerald]: [new Vec2(4, 1)],
-  [Tiles.Ruby]: [new Vec2(5, 1)],
-  [Tiles.Sand]: [new Vec2(2, 2)],
-  [Tiles.Magicblock]: [new Vec2(3, 2)],
-  [Tiles.Sapphire]: [new Vec2(4, 2)],
-  [Tiles.Gold]: [new Vec2(5, 2)],
+  [Tiles.Clay]: [1],
+  [Tiles.Limestone]: [2],
+  [Tiles.Sandstone]: [3],
+  [Tiles.Brownrock]: [4],
+  [Tiles.Pinkstone]: [5],
+  [Tiles.Blackrock]: [6],
+  [Tiles.Dirt]: [7],
+  [Tiles.Emerald]: [10],
+  [Tiles.Ruby]: [11],
+  [Tiles.Sand]: [14],
+  [Tiles.Magicblock]: [15],
+  [Tiles.Sapphire]: [16],
+  [Tiles.Gold]: [17],
 }
